@@ -1,8 +1,14 @@
 aid: interintellect
 name: Interintellect
-description: Interintellect is a company surfaced as a portfolio company of bloomberg-beta and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Interintellect is the world's leading salon platform, a creator-led cultural center for
+  intellectual conversation founded in March 2019 by art philosopher Anna Gat. The platform lets people
+  attend and host high-quality salons and discussions online and offline, across philosophy, technology,
+  poetry, history, and the arts, building community around shared intellectual interests. It supports
+  independent thinkers and hosts through ticket revenue, training, and a peer community, with paid
+  membership tiers granting event access, members-only sessions, community forums, and global in-person
+  gatherings. Interintellect is a portfolio company of Bloomberg Beta; it publishes no public API or
+  developer platform, so this profile carries identity and website-property signals rather than API
+  artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/interintellect/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +16,30 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://interintellect.nyc3.digitaloceanspaces.com/salon-images/1742939227754-twitter-bg.jpg
 tags:
 - Company
+- Community
+- Events
+- Salons
+- Membership
+- Intellectual
+- Learning
+- Culture
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.interintellect.com/
+- type: About
+  url: https://www.interintellect.com/about
+- type: Pricing
+  url: https://www.interintellect.com/community
+- type: SignUp
+  url: https://www.interintellect.com/signup
+- type: Login
+  url: https://www.interintellect.com/signin
+- type: Support
+  url: https://www.interintellect.com/faq
+- type: Blog
+  url: https://blog.interintellect.com/
+- type: TermsOfService
+  url: https://www.interintellect.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.interintellect.com/privacy-policy
+- type: DomainSecurity
+  url: security/interintellect-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
