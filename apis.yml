@@ -10,6 +10,9 @@ description: Interintellect is the world's leading salon platform, a creator-led
   developer platform, so this profile carries identity and website-property signals rather than API
   artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/interintellect/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Interintellect is a portfolio company of Bloomberg Beta; it publishes no public API or developer platform, so this profile carries identity and website-property signals rather than API artifacts."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
